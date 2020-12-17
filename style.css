@@ -12,6 +12,15 @@ body {
 }
 
 #contact-me {
- padding-left: 14%;
+ padding-left: 18%;
  
 }
+
+#origin .row {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#origin .col-sm-3 {
+  font-weight: bolder;
+}
+
