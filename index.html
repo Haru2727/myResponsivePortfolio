@@ -24,7 +24,7 @@
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <menu class="collapse navbar-collapse" id="navbarNav">
+                <nav class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#about-me">Origin Story</a>
@@ -36,7 +36,7 @@
                             <a class="nav-link" href="./portfolio.html">Portfolio</a>
                         </li>
                     </ul>
-                </menu>
+                </nav>
             </header>
         </nav>
     </nav>
@@ -57,25 +57,25 @@
         </figure>
     </section>
 
-
-    <header id="about-me">
-        <main class="container">
-            <main class="card text-center bg-info">
-                <main class="card-header">
-                    <main class="row">
-                        <main class="col-md-12">
+<!-- a little header card to show a new section of work -->
+    <section id="about-me">
+        <section class="container">
+            <section class="card text-center bg-info">
+                <section class="card-header">
+                    <section class="row">
+                        <section class="col-md-12">
                             Origin Story
-                        </main>
-                    </main>
-                </main>
-            </main>
-        </main>
-    </header>
+                        </section>
+                    </section>
+                </section>
+            </section>
+        </section>
+    </section>
 
 
-
-    <main id="origin">
-        <summary class="container">
+<!-- bootstrap dt and dd listing. Not sure if it can be broken down into semantics couldn't find anything on it -->
+    <section id="origin">
+        <section class="container">
             <dl class="row">
                 <dt class="col-sm-3">Name:</dt>
                 <dd class="col-sm-9">Arash Saeedi</dd>
@@ -134,8 +134,8 @@
                     </dl>
                 </dd>
             </dl>
-        </summary>
-    </main>
+        </section>
+    </section>
 
     <!--  Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
@@ -143,5 +143,7 @@
         crossorigin="anonymous"></script>
 
 </body>
+
+
 
 </html>

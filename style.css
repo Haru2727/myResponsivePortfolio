@@ -4,10 +4,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;  
   background-size: cover;
-}
-
-
-#origin .row {
+  text-align: center;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -15,24 +12,15 @@ body {
   font-weight: bolder;
 }
 
-/* .LI-profile-badge {
-  padding-left: 50%;
-} */
-/* .card-body {
-  padding-right: 15%;
-} */
-/* #contact-me {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 68%;
-} */
-
 #contact-me {
   float:right;
   position: relative;
 }
+/* it seems to already be shrinking to the right proportions when I check it on my phone */
+/* Not sure on what to add to make this completely mobile friendly */
+@media screen and (max-width: 480px){
+body{
+font-size: small;
+width: 50%;
 
-#instagram {
-  height: 50%;
 }
