@@ -18,6 +18,7 @@ body {
 }
 /* it seems to already be shrinking to the right proportions when I check it on my phone */
 /* Not sure on what to add to make this completely mobile friendly */
+/* feel like bootstrap did most of it with this basic site */
 @media screen and (max-width: 480px){
 body{
 font-size: small;
