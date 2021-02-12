@@ -16,63 +16,38 @@
 <body>
 
 
-  <!-- nav start -->
-  <nav class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-info">
-      <nav class="container-fluid">
-        <a class="navbar-brand" href="./index.html">Arash Saeedi</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <nav class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./index.html #about-me">Origin Story</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./contact.html">Contact Me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./portfolio.html">Portfolio</a>
-            </li>
-          </ul>
-        </nav>
-      </nav>
-    </nav>
-  </nav>
-  <!-- nav end -->
 
-  <!-- Jumbotron with image -->
-  <figure class="container">
-    <figure class="jumbotron jumbotron-fluid">
-      <figure class="container">
-        <h1 class="display-4"></h1>
-        <p class="lead"> <img src="./images/contact-me.png" class="img-fluid" alt="Contact Me"></p>
-      </figure>
-    </figure>
-  </figure>
 
+
+  <div class="container">
+    <div class="contactPage">
+      <div class="jumbotron">
+        <h1 class="display-4">Conctact Me</h1>
+        <p class="lead">Let'c Connect!</p>
+        <hr class="my-4">
+        <p>Follow the links below to contact me.</p>
+        <p class="lead">
+          <a class="btn btn-primary btn-lg" href="./index.html" role="button">About Me</a>
+          <a class="btn btn-secondary btn-lg" href="./contact.html" role="button">Contact Info</a>
+          <a class="btn btn-success btn-lg" href="./portfolio.html" role="button">Portfolio</a>
+        </p>
+      </div>
+    </div>
+  </div>
   <!-- Contact info with photos start -->
   <!-- used class activity layout added semantics and images -->
-  <section class="container">
+  <section class="container contactInfo">
     <article class="row">
-      <figure class="col-md-8">
-        <figure id="fanboys">
-          <figure class="row">
-            <figure class="col-md-3">
-              <img src="./images/fanboys.jpg" alt="My brother and I" class="img-thumbnail">
-            </figure>
-            <summary class="col-md-9">
-              <p>
-              <p>Here are some ways to get in touch with me:<br>
-                <a href="mailto:saeediarash84@gmail.com">Send Email </a><br>
-                <a href="https://www.instagram.com/arash27/">Instagram</a><br>
-                <a href="https://www.facebook.com/profile.php?id=22620493">Facebook</a>
-              </p>
-            </summary>
-          </figure>
-        </figure>
+      <summary class="col-md-4">
+        <p>
+        <p>Here are some ways to get in touch with me:<br>
+          <a href="mailto:saeediarash84@gmail.com">Send Email </a><br>
+          <a href="https://www.instagram.com/arash27/">Instagram</a><br>
+          <a href="https://www.facebook.com/profile.php?id=22620493">Facebook</a>
+        </p>
+      </summary>
+      </figure>
+      </figure>
       </figure>
       <!-- Made a card to emphasis the best way to reach me -->
       <figure class="col-md-4">
@@ -84,18 +59,16 @@
           </figure>
         </figure>
       </figure>
-    </article>
-  </section>
-
-  <section class="container">
-    <figure class="row">
-      <figure class="col-md-10">
+      <figure class="col-md-4">
         <div class="LI-profile-badge" data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical"
           data-theme="light" data-vanity="arash-saeedi-b18307127"><a class="LI-simple-link"
             href='https://www.linkedin.com/in/arash-saeedi-b18307127?trk=profile-badge'>Arash Saeedi</a></div>
-      </div>
-<!-- Couldnt find htmk semantic for this div.  It would change the layout of the badge with each one I tried -->
+        </div>
+      </figure>
+    </article>
   </section>
+
+
   <!-- contact info end -->
   <!-- Bootstrap Bundle with Popper added linkedin one as well -->
   <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer>

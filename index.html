@@ -10,76 +10,56 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <title>Arash Saeedi</title>
 </head>
 
 <body>
-    <!-- nav start -->
-    <nav class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-info">
-            <header class="container-fluid">
-                <a class="navbar-brand" href="#">Arash Saeedi</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <nav class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#about-me">Origin Story</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./contact.html">Contact Me</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./portfolio.html">Portfolio</a>
-                        </li>
-                    </ul>
-                </nav>
-            </header>
-        </nav>
-    </nav>
-    <!-- nav end -->
-    <section class="container">
-        <figure id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-            <figure class="carousel-inner">
-                <figure class="carousel-item active">
-                    <img src="./images/32peach-j-lewis.png" class="d-block w-100" alt="Title Page w/John Lewis quote">
-                </figure>
-                <figure class="carousel-item">
-                    <img src="./images/pikes-peak-arash.jpg" class="d-block w-100" alt="Pikes Peak Race">
-                </figure>
-                <figure class="carousel-item">
-                    <img src="./images/85-fence.png" class="d-block w-100" alt="Interstate 85 olympic torch">
-                </figure>
-            </figure>
-        </figure>
-    </section>
 
-<!-- a little header card to show a new section of work -->
-    <section id="about-me">
+    <div class="container">
+        <div class="originPage">
+        <div class="jumbotron">
+            <h1 class="display-4">Arash Saeedi</h1>
+            <p class="lead">Future Full Stack Developer </p>
+            <hr class="my-4">
+            <p>Always take the scenic route,<br>the experiences and knowledge gained<br>
+            along the way is priceless. </p>
+            <p class="lead">
+                <a class="btn btn-primary btn-lg" href="#origin" role="button">About Me</a>
+                <a class="btn btn-secondary btn-lg" href="./contact.html" role="button">Contact Info</a>
+                <a class="btn btn-success btn-lg" href="./portfolio.html" role="button">Portfolio</a>
+            </p>
+        </div>
+        </div>
+
         <section class="container">
-            <section class="card text-center bg-info">
-                <section class="card-header">
-                    <section class="row">
-                        <section class="col-md-12">
-                            Origin Story
-                        </section>
-                    </section>
-                </section>
-            </section>
+            <div class="myImages">
+                <article class="row">
+                    <figure class="col-md-4">
+                        <img src="./images/fanboys.jpg" alt="My brother and I" class="img-thumbnail">
+                    </figure>
+                    <figure class="col-md-4">
+                        <img src="./images/hawks.png" alt="Atlanta Hawks Logo" class="img-thumbnail">
+                    </figure>
+                    <figure class="col-md-4">
+                        <img src="./images/Atlanta United_Badge June-17.png" alt="Atlanta United Banner"
+                            class="img-thumbnail">
+                    </figure>
+                </article>
+            </div>
         </section>
-    </section>
+
+    </div>
 
 
-<!-- bootstrap dt and dd listing. Not sure if it can be broken down into semantics couldn't find anything on it -->
+    <!-- bootstrap dt and dd listing. Not sure if it can be broken down into semantics couldn't find anything on it -->
     <section id="origin">
         <section class="container">
             <dl class="row">
                 <dt class="col-sm-3">Name:</dt>
                 <dd class="col-sm-9">Arash Saeedi</dd>
-              <!-- First name origin -->
+                <!-- First name origin -->
                 <dt class="col-sm-3">Name Origin:</dt>
                 <dd class="col-sm-9">
                     <p>Named after Arash e Kamangir, translated into Arash the Archer, my name comes from an old folk
@@ -98,7 +78,7 @@
 
                 <dt class="col-sm-3">Location:</dt>
                 <dd class="col-sm-9">Atlanta, GA</dd>
-        <!-- My background story -->
+                <!-- My background story -->
                 <dt class="col-sm-3 text-truncate">How Atlanta became home:</dt>
                 <dd class="col-sm-9">
 
@@ -126,8 +106,9 @@
                 <dt class="col-sm-3">Hobbies/Interests:</dt>
                 <dd class="col-sm-9">
                     <dl class="row">
-                        <dd class="col-sm-9">Biking, Cooking, Sports (watching and playing), Trading Stocks,
-                            Learning to code. </dd>
+                        <dd class="col-sm-9"> </dd>
+                        <p>Biking, Cooking, Sports (watching and playing), Trading Stocks,
+                            Learning to code.</p>
                     </dl>
                 </dd>
             </dl>

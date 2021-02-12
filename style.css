@@ -1,20 +1,62 @@
 
 body {
-  background-image: url('./images/background1.jpg');
+  background-image: url('./images/tina-dawson-Kim9COAIEGc-unsplash.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;  
   background-size: cover;
+
   text-align: center;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-#origin .col-sm-3 {
+.jumbotron {
+  background-image: url('./images/pikes-peak-arash.jpg');
+  height:300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom:1px solid black
+}
+
+.contactPage .jumbotron {
+  background-image: url('./images/race-walk_cropped2.jpg');
+  height:300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom:1px solid black
+}
+
+.jumbotron h1, p {
+  color:ghostwhite;
   font-weight: bolder;
 }
 
-#contact-me {
-  float:right;
-  position: relative;
+.lead,
+.contactPage p {
+  color:orangered;
+  font-weight: bolder;
+}
+
+.jumbotron .container {
+  position:relative;
+  top:50px;
+}
+
+#origin p {
+  font-weight: bolder;
+  color: ghostwhite;
+  margin-top: 50px;
+}
+
+#origin dt, dd {
+  color: orangered;
+}
+
+.card-text {
+  color: black;
+}
+
+.contactInfo, .myImages {
+  margin-top: 50px;
 }
 /* it seems to already be shrinking to the right proportions when I check it on my phone */
 /* Not sure on what to add to make this completely mobile friendly */
@@ -23,5 +65,4 @@ body {
 body{
 font-size: small;
 width: 50%;
-
 }
