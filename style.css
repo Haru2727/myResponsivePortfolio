@@ -1,4 +1,3 @@
-
 body {
   background-image: url('./images/tina-dawson-Kim9COAIEGc-unsplash.jpg');
   background-repeat: no-repeat;
@@ -14,6 +13,7 @@ body {
   height:300px;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   border-bottom:1px solid black
 }
 
@@ -22,6 +22,7 @@ body {
   height:300px;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   border-bottom:1px solid black
 }
 
@@ -30,18 +31,23 @@ body {
   height:300px;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   border-bottom:1px solid black
 }
 
 .jumbotron h1, p {
-  color:ghostwhite;
+  color:red;
   font-weight: bolder;
 }
 
 .lead,
-.contactPage p,
+.contactPage p {
+color:red;
+}
+
+
 #origin dt, dd {
-  color:orangered;
+  color:chartreuse;
   font-weight: bolder;
 }
 
@@ -66,18 +72,22 @@ body {
 
 #card2 {
   margin-left: 60px;
+  float:right;
+  /* position: relative; */
 }
 
-.resumeBtn {
+/* .resumeBtn {
   margin-left: 100px;
-}
+  
+} */
+
+
 /* it seems to already be shrinking to the right proportions when I check it on my phone */
 /* Not sure on what to add to make this completely mobile friendly */
 /* feel like bootstrap did most of it with this basic site */
 @media screen and (max-width: 480px){
 
-
-  [class*="col-"] {
-    width: 100%;
-  }
+body{
+  max-width: fit-content;
+}
 }
